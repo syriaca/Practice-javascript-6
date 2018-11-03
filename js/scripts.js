@@ -18,7 +18,7 @@ let prevItem = lastItem.previousElementSibling;
 prevItem.style.backgroundColor = '#f36f49';
 
 // 5: Store the nested div in a variable named `banner`
-
+let banner = document.querySelector('div:first-child');
 banner.className = 'banner';
 
 // 6: Using traversal, store the wrapper div in a variable named `wrapper`
