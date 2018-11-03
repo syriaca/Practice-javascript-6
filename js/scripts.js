@@ -10,7 +10,7 @@ let nextItem = firstItem.nextElementSibling;
 nextItem.style.backgroundColor = '#b7c7d0';
 
 // 3: Store the last child of the `ul` in a variable named `lastItem`
-
+let lastItem = list.lastElementChild;
 lastItem.style.backgroundColor = '#57d6ab';
 
 // 4: Using traversal, store the second-to-last list item in a variable named `prevItem`
