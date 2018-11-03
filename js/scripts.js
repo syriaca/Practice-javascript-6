@@ -2,11 +2,11 @@
 const list = document.querySelector('.list');
 
 // 1: Store the first child of the `ul` in the variable `firstItem`
-let firstItem = list.firstElementChild ;
+let firstItem = list.firstElementChild;
 firstItem.style.backgroundColor = '#04c5e6';
 
 // 2: Using traversal, store the second list item in a variable named `nextItem`
-
+let nextItem = firstItem.nextElementSibling;
 nextItem.style.backgroundColor = '#b7c7d0';
 
 // 3: Store the last child of the `ul` in a variable named `lastItem`
