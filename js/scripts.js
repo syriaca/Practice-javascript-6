@@ -22,7 +22,7 @@ let banner = document.querySelector('div:first-child');
 banner.className = 'banner';
 
 // 6: Using traversal, store the wrapper div in a variable named `wrapper`
-
+let wrapper = document.querySelector('.wrapper');
 wrapper.style.backgroundColor = '#fcfcfc';
 
 // 7: Using traversal, store the body in a variable named `body`
